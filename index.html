@@ -5,121 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .img {
-            background-color: black;
-        }
-
-        .attribution { font-size: 11px; text-align: center; }
-        .attribution a { color: hsl(228, 45%, 44%); }
-    </style>
 </head>
 <body>
-    <header>
-        <img class="img" src="images/logo.svg" alt="logo-fylo" title="logo-fylo">
+    <header class="header">
+        <img class="header_logo" src="images/logo.svg" alt="logo-fylo" title="logo-fylo">
 
-        <nav>
-            <ul>
-                <li>Features</li>
-                <li>Team</li>
-                <li>Sign In</li>
+        <nav class="header_navegacao">
+            <ul class="navegacao_menu">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
             </ul>
         </nav>
     </header>
 
+
     <main>
-        <section>
-            <article>
-                <img src="images/illustration-intro.png" alt="Arquivos Acessivel e seguro" title="Arquivos Acessivel e seguro">
-                <h1>All your files in one secure location, accessible anywhere.</h1>
-                <p>Fylo stores all your most important files in one secure location. Access them wherever 
-                    you need, share and collaborate with friends family, and co-workers.</p>
-                <button>Get Started</button>
-            </article>
-        </section>
+        <div class="bg_header">
+            <section>
+                <div class="bg_curvy_desktop">
+                    <article>
+                        <img src="images/illustration-intro.png" alt="Arquivos Acessivel e seguro" title="Arquivos Acessivel e seguro">
+                        <h1>All your files in one secure location, </br> accessible anywhere.</h1>
+                        <p>Fylo stores all your most important files in one secure location. <br> Access them wherever 
+                            you need, share and collaborate with <br> friends family, and co-workers.</p>
+                        <button>Get Started</button>
+                    </article>
+                </div>
+            </section>
+        </div>
 
-        <section>
-            <article>
-                <img class="img" src="./images/icon-access-anywhere.svg" alt="Acessar seus arquivos em qualquer momento" title="Acessar seus arquivos em qualquer momento">
-                <h2>Access your files, anywhere</h2>
-                <p>The ability to use a smartphone, tablet, or computer to access your account means your 
-                    files follow you everywhere.</p>
-            </article>
+        <div class="bg_main">
+            <section>
+                <article>
+                    <img class="img" src="./images/icon-access-anywhere.svg" alt="Acessar seus arquivos em qualquer momento" title="Acessar seus arquivos em qualquer momento">
+                    <h2>Access your files, anywhere</h2>
+                    <p>The ability to use a smartphone, tablet, or computer to access your account means your 
+                        files follow you everywhere.</p>
+                </article>
 
-            <article>
-                <img class="img" src="./images/icon-security.svg" alt="Confiança na segurança dos arquivos" title="Confiança na segurança dos arquivos">
-                <h2>Security you can trust</h2>
-                <p>2-factor authentication and user-controlled encryption are just a couple of the security 
-                    features we allow to help secure your files.</p>
-            </article>
+                <article>
+                    <img class="img" src="./images/icon-security.svg" alt="Confiança na segurança dos arquivos" title="Confiança na segurança dos arquivos">
+                    <h2>Security you can trust</h2>
+                    <p>2-factor authentication and user-controlled encryption are just a couple of the security 
+                        features we allow to help secure your files.</p>
+                </article>
 
-            <article>
-                <img class="img" src="./images/icon-collaboration.svg" alt="Colaboração em tempo real" title="Colaboração em tempo real">
-                <h2>Real-time collaboration</h2>
-                <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
-                    No email attachments required.</p>
-            </article>
+                <article>
+                    <img class="img" src="./images/icon-collaboration.svg" alt="Colaboração em tempo real" title="Colaboração em tempo real">
+                    <h2>Real-time collaboration</h2>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
+                        No email attachments required.</p>
+                </article>
 
-            <article>
-                <img class="img" src="./images/icon-any-file.svg" alt="Compartilhamento de arquivo" title="Compartilhamento de arquivo">
-                <h2>Store any type of file</h2>
-                <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-                    file types to be securely stored and shared.</p>
-            </article>
-        </section>
+                <article>
+                    <img class="img" src="./images/icon-any-file.svg" alt="Compartilhamento de arquivo" title="Compartilhamento de arquivo">
+                    <h2>Store any type of file</h2>
+                    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+                        file types to be securely stored and shared.</p>
+                </article>
+            </section>
 
-        <section>
-            <article>
-                <img src="./images/illustration-stay-productive.png" alt="Fylo um otimo sistema de compartilhamento de arquivos" title="Fylo um otimo sistema de compartilhamento de arquivos">
-            </article>
+            <section>
+                <article>
+                    <img src="./images/illustration-stay-productive.png" alt="Fylo um otimo sistema de compartilhamento de arquivos" title="Fylo um otimo sistema de compartilhamento de arquivos">
+                </article>
 
-            <article>
-                <h2>Stay productive, wherever you are</h2>
-                <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-                    storage needs.
-                
-                    Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-                    attachments required.</p>
-                <a href="">
-                    See how Fylo works
-                    <img src="./images/icon-arrow.svg" alt="icone seta, Visualizar o trabalho da fylo"  title="icone seta, Visualizar o trabalho da fylo">
-                </a>
-            </article>
-        </section>
+                <article>
+                    <h2>Stay productive, wherever you are</h2>
+                    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+                        storage needs.
+                    
+                        Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+                        attachments required.</p>
+                    <a href="">
+                        See how Fylo works
+                        <img src="./images/icon-arrow.svg" alt="icone seta, Visualizar o trabalho da fylo"  title="icone seta, Visualizar o trabalho da fylo">
+                    </a>
+                </article>
+            </section>
 
-        <section>
-            <header>
-                <img src="./images/bg-quotes.png" alt="Referência de comentarios"  title="Referência de comentarios">
-            </header>
+            <section>
+                <header>
+                    <img src="./images/bg-quotes.png" alt="Referência de comentarios"  title="Referência de comentarios">
+                </header>
 
-            <article>
-                <p>has improved our team productivity by an order of magnitude. Since making the switch our team has 
-                become a well-oiled collaboration machine.</p>
-                <img class="img" src="./images/profile-1.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
-                <h3>Satish Patel</h3>
-                <p>Founder & CEO, Huddle</p>
-            </article>
-    
-            <article>
-                <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                <article>
+                    <p>has improved our team productivity by an order of magnitude. Since making the switch our team has 
                     become a well-oiled collaboration machine.</p>
-                <img class="img" src="./images/profile-2.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
-                <h3>Bruce McKenzie</h3>
-                <p>Founder & CEO, Huddle</p>
-            </article>
-    
-            <article>
-                <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-                    become a well-oiled collaboration machine.</p>
-                <img class="img" src="./images/profile-3.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
-                <h3>Iva Boyd</h3>
-                <p>Founder & CEO, Huddle</p>
-            </article>
-        </section>
+                    <img class="img" src="./images/profile-1.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
+                    <h3>Satish Patel</h3>
+                    <p>Founder & CEO, Huddle</p>
+                </article>
+        
+                <article>
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                        become a well-oiled collaboration machine.</p>
+                    <img class="img" src="./images/profile-2.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
+                    <h3>Bruce McKenzie</h3>
+                    <p>Founder & CEO, Huddle</p>
+                </article>
+        
+                <article>
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                        become a well-oiled collaboration machine.</p>
+                    <img class="img" src="./images/profile-3.jpg" alt="Foto de perfil usuario 1" title="Foto de perfil usuario 1">
+                    <h3>Iva Boyd</h3>
+                    <p>Founder & CEO, Huddle</p>
+                </article>
+            </section>
+        </div>
     </main>
 
     <section>
@@ -130,7 +130,7 @@
         <button>Get Started For Free</button>
     </section>
 
-    <footer>
+    <footer class="footer">
         <header>
             <img class="img" src="./images/logo.svg" alt="logo-fylo" title="logo-fylo">
         </header>
@@ -167,7 +167,7 @@
             </nav>
         </article>
 
-        <article>
+        <article class="social_media">
             <img src="./images/facebook-brands.svg" alt="icone-facebook" title="icone-facebook">
             <img src="./images/twitter-brands.svg" alt="icone-twitter" title="icone-twitter">
             <img src="./images/instagram-brands.svg" alt="icone-instagram" title="icone-instagram">
