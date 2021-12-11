@@ -4,6 +4,7 @@
     --dark-blue-footer: hsl(216, 53%, 9%);
     --dark-blue-feedback: hsl(219, 30%, 18%);
     --white-color: hsl(0, 0%, 100%);
+    --color-paragraph: hsl(0, 0%, 57%);
 }
 
 h1, h2, h3, p {
@@ -50,12 +51,12 @@ main {
     background-color: var(--dark-blue-header);
 }
 
-.bg_header section article {
+.bg_header section {
     max-width: 100%;
     text-align: center;
 }
 
-.bg_header section article img {
+.bg_header section header img {
     margin-top: 50px;
     width: 530px;
 }
@@ -79,9 +80,9 @@ main {
     color: var(--white-color);
 }
 
-.bg_wave{
+/* .bg_wave{
     background-color: var(--dark-blue-main);
-}
+} */
 
 body, html {
     height: 100%;
@@ -91,11 +92,30 @@ body, html {
 .bg_curvy_desktop {
     background-image: url('../../images/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
-
+    background-color: var(--dark-blue-header);
 }
 
 .bg_main {
     background-color: var(--dark-blue-main);
+}
+
+.services {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.services article {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.services article p {
+    width: 50%;
+    padding-left: 25%;
+    color: hsl(0, 0%, 57%);
 }
 
 .footer {
