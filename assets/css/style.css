@@ -57,11 +57,13 @@ main {
 
 .bg_header section article img {
     margin-top: 50px;
-    width: 550px;
+    width: 530px;
 }
 
 .bg_header section article h1 {
     font-size: 2em;
+    margin: 0px;
+    padding: 35px;
 }
 
 .bg_header section article p {
@@ -75,6 +77,10 @@ main {
     border: 0;
     background-color: hsl(198, 60%, 50%);
     color: var(--white-color);
+}
+
+.bg_wave{
+    background-color: var(--dark-blue-main);
 }
 
 body, html {
