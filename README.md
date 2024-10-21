@@ -1,59 +1,64 @@
-# Frontend Mentor - Fylo dark theme landing page solution
+# Frontend Mentor - Solução de landing page tema escuro Fylo
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
+Esta é uma solução para o [desafio da landing page do tema escuro do Fylo no Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Visao Geral](#visao-geral)
+  - [O Desafio](#o-desafio)
+  - [Captura de Tela](#captura-de-tela)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#luizamaro11)
+- [Meu Processo](#meu-processo)
+  - [Construido com](#construido-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Desenvolvimento Continuo](#desenvolvimento-continuo)
+- [Contribuições](#contribuições)
+- [Autor](#autor)
 
-## Overview
+## Visao Geral
 
-### The challenge
+### O Desafio
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Visualizar o layout ideal para o site dependendo do tamanho da tela do seu dispositivo
+- Ver estados de foco para todos os elementos interativos na página
 
-### Screenshot
+### Captura de Tela
 
 ![Completed desktop project](./design/desktop-design-complete-luiz.png)
 ![Completed mobile project](./design/mobile-design-complete-luiz.png)
 
 ### Links
 
-- Solution only on local machine
+- Solução somente na máquina local
 
 ## My process
 
-### Built with
+### Construido com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Marcação semântica HTML5
+- Propriedades personalizadas CSS
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- responsive CSS with media query
+- Fluxo de trabalho mobile-first
+- CSS responsivo com media query
 
-### What I learned
+### O que eu aprendi
 
-I used this challenge to further improve my skills as a front-end developer.
+Usei esse desafio para melhorar ainda mais minhas habilidades como desenvolvedor front-end.
 
-### Continued development
+### Desenvolvimento continuo
 
-As a continuation of my studies, I intend to take challenges with css animations and their keyframes.
+Como continuação dos meus estudos, pretendo encarar desafios com animações css e seus keyframes.
 
-And also develop web pages using javascript for DOM manipulation and among other things.
+E também desenvolver páginas web usando javascript para manipulação de DOM e entre outras coisas.
 
-## Author
+## Contribuições
 
-- github - [@luizamaro11](https://github.com/luizamaro11)
+- viniciuscorreialourenco - [@viniciuscorreialourenco](https://github.com/viniciuscorreialourenco)
+
+## Autor
+
+- luizamaro11 - [@luizamaro11](https://github.com/luizamaro11)
 - Frontend Mentor - [@luizamaro11](https://www.frontendmentor.io/profile/luizamaro11)
